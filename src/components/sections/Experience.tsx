@@ -3,6 +3,17 @@ import React from 'react';
 const Experience = () => {
   const experiences = [
     {
+      title: "Software Developer Intern",
+      company: "Cognito",
+      period: "Jun 2025 – Present",
+      responsibilities: [
+        "Contributing to the development of a full-stack mobile application in a fast-paced startup environment.",
+        "Building authentication features with end-to-end ownership — from backend logic to frontend integration.",
+        "Developing both frontend and backend functionalities from scratch using modern web and mobile frameworks.",
+        "Collaborating with the team in agile workflows and technical discussions to align with evolving project goals."
+      ]
+    },
+    {
       title: "Green Intern",
       company: "1M1B Green Internship Program in partnership with AICTE and Salesforce",
       period: "Jan 2025 – Mar 2025",
