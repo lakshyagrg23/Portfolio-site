@@ -7,10 +7,10 @@ const Experience = () => {
       company: "Cognito",
       period: "Jun 2025 – Present",
       responsibilities: [
-        "Contributing to the development of a full-stack mobile application in a fast-paced startup environment.",
-        "Building authentication features with end-to-end ownership — from backend logic to frontend integration.",
-        "Developing both frontend and backend functionalities from scratch using modern web and mobile frameworks.",
-        "Collaborating with the team in agile workflows and technical discussions to align with evolving project goals."
+        "Engineered the backend from scratch—including authentication and core app logic—while aligning feature requirements through ongoing collaboration with the product manager.",
+        "Developed end-to-end features and gamification systems (XP, levels, achievements), while revamping and designing corresponding frontend flows.",
+        "Integrated notifications, performed debugging with ADB, and managed releases via Expo and Google Play Console.",
+        "Implemented AI-driven personalization using LLM APIs to generate personalized user insights and recommendations"
       ]
     },
     {
