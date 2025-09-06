@@ -15,7 +15,7 @@ const About = () => {
             </p>
 
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              Lately, I’ve been diving deep into backend engineering, learning about deployment strategies, and exploring how cloud services can support real-world applications. I’m also fascinated by agentic AI — and have been exploring how tools like LangChain and LangSmith can power intelligent workflows in full-stack projects.
+              Lately, I’ve been diving deep into backend engineering, learning about deployment strategies, and exploring how cloud services can support real-world applications. I’m also fascinated by agentic AI — and have been exploring how tools like LangChain, LangGraph and LangSmith can power intelligent workflows in full-stack projects.
             </p>
             
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
