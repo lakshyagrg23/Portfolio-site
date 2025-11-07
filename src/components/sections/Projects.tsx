@@ -91,7 +91,7 @@ const Project = ({
               </a>
             )}
             
-            {/* {demoLink && (
+            {demoLink && (
               <a 
                 href={demoLink}
                 target="_blank"
@@ -114,7 +114,7 @@ const Project = ({
                   />
                 </svg>
               </a>
-            )} */}
+            )}
           </div>
         </div>
       </div>
@@ -125,30 +125,44 @@ const Project = ({
 const Projects = () => {
   const projects = [
     {
-      title: "MailWise: AI-Powered Email Management System",
+      title: "MailWise: AI-Powered Email Management Platform",
       description: [
-        "Built MailWise, an AI-powered email management platform that fetches and categorizes Gmail messages using Gmail API, Gemini AI, and OAuth authentication, reducing manual email sorting efforts by ~60%.",
-        "Developed a React.js frontend with features like hover-based email previews and AI-assisted email drafting, cutting down email reading and composition time by ~40%.",
-        "Improved backend efficiency by implementing child processes in Node.js, achieving more than 3 times speedup in email fetching and classification, and managed structured data via PostgreSQL, demonstrating strong backend design and scalable processing."
+        "Conceived and led development of an AI-powered web platform that automates Gmail categorization and analysis with Gemini AI + OAuth, cutting manual sorting time by ~60%.",
+        "Designed React.js frontend with UX-focused previews and AI-assisted drafting, enhancing efficiency by ~40%.",
+        "Designed and deployed a secure, scalable, and reliable cloud infrastructure on AWS (EC2, RDS, Amplify). Optimized backend components (Node.js/PostgreSQL) to achieve >3× speedup in data processing."
       ],
-      technologies: "ReactJS, Tailwind CSS, NodeJS, ExpressJS, PostgreSQL, Google Gemini AI, Gmail API",
+      technologies: "ReactJS, NodeJS, ExpressJS, PostgreSQL, Gmail API, Google Gemini AI, AWS (EC2, RDS, Amplify)",
       timeframe: "Jan 2025 – Present",
       githubLink: "https://github.com/lakshyagrg23/MailWise-v5",
-      demoLink: "https://mailwise-demo.vercel.app",
+      demoLink: "https://main.d2n81lupyovp57.amplifyapp.com/",
       imageUrl: "/mailwise.png", 
       imagePlaceholder: "MailWise Dashboard"
     },
     {
-      title: "CrowdScope: AI-powered Market Insights Platform",
+      title: "MindCare: AI-Powered Mental Wellness Platform",
       description: [
-        "Developed CrowdScope, an AI-powered platform that analyzes data from over 1 million Reddit posts to extract actionable market insights using Google Gemini AI and PRAW, enhancing decision-making for businesses.",
-        "Designed the frontend using React.js and Tailwind CSS, and built the backend with Node.js, Express.js, and Python, ensuring a great optimization in data retrieval and analysis over previous manual methods.",
-        "Integrated automated data processing and AI-driven insights, generating real-time reports across industries like product ideation, audience research, and competitor tracking, reducing manual research time by a great extent."
+        "Engineered an AI-driven mental wellness assistant for youth, integrating Gemini AI, crisis detection, and gamified tracking, expected to improve engagement by ~30%.",
+        "Built an immersive chat system with a React.js + VRM avatar frontend and a Node.js/Express + PostgreSQL backend for reliable, low-latency performance.",
+        "Leveraged GCP (Cloud Run, Cloud SQL) for secure data management, and ensuring scalability and performance."
       ],
-      technologies: "ReactJS, Tailwind CSS, NodeJS, ExpressJS, Python, Google Gemini API, Reddit PRAW API",
-      timeframe: "Feb 2025 – Present",
+      technologies: "ReactJS, NodeJS, ExpressJS, PostgreSQL, Google Cloud (Gemini AI, Cloud Run, Cloud SQL), TTS",
+      timeframe: "Sep 2025 – Present",
+      githubLink: "https://github.com/sunjinwoo1298/MentalHealth",
+      demoLink: "https://mental-health-frontend-571352463117.asia-south1.run.app/",
+      imageUrl: "/mindcare.png", 
+      imagePlaceholder: "MindCare AI Assistant"
+    },
+    {
+      title: "CrowdScope: AI-Driven Market Insights Platform",
+      description: [
+        "Built a solution that analyzes community discussions (Reddit) to extract real-time market/consumer insights using Gemini AI and Python — reducing manual research by ~70%.",
+        "Developed scalable backend with Node.js/Python for optimized data retrieval/analysis.",
+        "Delivered business-oriented reports through an intuitive React UI, useful for market analysis and client decision-making."
+      ],
+      technologies: "ReactJS, Tailwind CSS, NodeJS, ExpressJS, Python, Gemini AI, Reddit PRAW API",
+      timeframe: "Feb 2025 – Apr 2025",
       githubLink: "https://github.com/lakshyagrg23/CrowdScope",
-      demoLink: "https://crowdscope-demo.vercel.app",
+      demoLink: "https://crowd-scope.vercel.app/",
       imageUrl: "/crowdscope.png", 
       imagePlaceholder: "CrowdScope Analytics Dashboard"
     },

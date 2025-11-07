@@ -5,23 +5,21 @@ const Experience = () => {
     {
       title: "Software Developer Intern",
       company: "Cognito",
-      period: "Jun 2025 – Present",
+      period: "Jun 2025 – Aug 2025",
       responsibilities: [
-        "Engineered the backend from scratch—including authentication and core app logic—while aligning feature requirements through ongoing collaboration with the product manager.",
-        "Developed end-to-end features and gamification systems (XP, levels, achievements), while revamping and designing corresponding frontend flows.",
-        "Integrated notifications, performed debugging with ADB, and managed releases via Expo and Google Play Console.",
-        "Implemented AI-driven personalization using LLM APIs to generate personalized user insights and recommendations"
+        "Engineered scalable backend architecture using Supabase serverless functions, serving as the core logic and authentication system, delivering 80% of MVP features in 5 weeks.",
+        "Engineered 8+ production features, including AI-driven personalization (using LLM APIs for user insights) and integrating Razorpay payments, while optimizing frontend flows for UX and reducing release errors.",
+        "Partnered with product management in agile sprints, translating business needs into scalable engineering solutions."
       ]
     },
     {
-      title: "Green Intern",
-      company: "1M1B Green Internship Program in partnership with AICTE and Salesforce",
+      title: "Green Intern (Data Analytics)",
+      company: "1M1B | AICTE and Salesforce",
       period: "Jan 2025 – Mar 2025",
       responsibilities: [
-        "Contributed to sustainability initiatives using AI and Data Analytics tools, with a focus on environmental awareness and green solutions.",
-        "Developed data visualization skills with Tableau, earning badges on Salesforce Trailblaze for data analysis and Tableau.",
-        "Gained hands-on experience with AI tools and prompt engineering, and participated in workshops on the role of technology in building a sustainable future.",
-        "Supported projects aligned with the UN's Sustainable Development Goals (SDGs)."
+        "Modeled multi-year time-series data for energy/water/waste; created Tableau dashboards to analyze trends, seasonality, and anomalies.",
+        "Partnered with stakeholders to convert quantitative insights into prioritized actions, demonstrating strong written/oral communication.",
+        "Contributed to sustainability initiatives using AI and Data Analytics tools, with a focus on environmental awareness and green solutions."
       ]
     }
   ];
