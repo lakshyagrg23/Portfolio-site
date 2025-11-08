@@ -45,6 +45,8 @@ const Education = () => {
                   'Database Management Systems',
                   'Software Engineering',
                   'Object Oriented Programming',
+                  'Distributed Systems',
+                  'Cryptography',
                   'Computer Architecture',
                   'Artificial Intelligence',
                   'Machine Learning',
