@@ -19,13 +19,13 @@ const Hero = () => {
               className="text-xl md:text-2xl mb-6 animate-fadeIn"
               style={{ animationDelay: '0.2s' }}
             >
-              Full Stack Developer passionate about solving real-world problems using AI
+              Full-Stack Engineer specializing in Scalable Backend Systems and AI-Driven Product Features for solving real-world problems.
             </h2>
             <p
               className="mb-8 text-lg animate-fadeIn"
               style={{ animationDelay: '0.4s' }}
             >
-              Experienced in building backend services and frontend applications using Node.js, Express, React, and PostgreSQL. Currently deepening knowledge in scalable architectures, cloud deployment, and AI-driven solutions.
+              Experienced in engineering scalable full-stack and cross-platform mobile applications using Node.js, ExpressJS, React, and PostgreSQL/Supabase. Currently focused on building high-performance backend architectures and specializing in integrating LLMs for AI-driven personalization and workflow automation.
             </p>
             <div
               className="flex flex-wrap gap-4 animate-fadeIn"

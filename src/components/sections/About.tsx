@@ -30,12 +30,12 @@ const About = () => {
               <div className="modern-card primary p-6 transition-transform hover:scale-105">
                 <div className="text-indigo-600 dark:text-indigo-400 mb-3 skill-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                   </svg>
                 </div>
-                <h4 className="text-lg font-medium mb-2 text-gray-800 dark:text-gray-200">Web Development</h4>
-                <p className="text-gray-600 dark:text-gray-400">
-                  I build full-stack web applications with responsive UIs, REST APIs, and scalable backend systems using tools like React, Node.js, and Express.
+                <h4 className="text-lg font-medium mb-3 text-gray-800 dark:text-gray-200">Full-Stack & Scalable Backend Engineering</h4>
+                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                  I design and engineer end-to-end applications and robust, scalable backend services using Node.js, ExpressJS, and TypeScript, backed by PostgreSQL/Supabase. I specialize in building high-performance APIs and cross-platform frontends using ReactJS and React Native/Expo for both web and mobile deployment.
                 </p>
               </div>
               
@@ -45,9 +45,9 @@ const About = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                   </svg>
                 </div>
-                <h4 className="text-lg font-medium mb-2 text-gray-800 dark:text-gray-200">AI & Agentic Workflows</h4>
-                <p className="text-gray-600 dark:text-gray-400">
-                  I experiment with integrating AI into applications, using tools like LangChain and LLMs to build agent-based systems that can automate tasks and make smart decisions.
+                <h4 className="text-lg font-medium mb-3 text-gray-800 dark:text-gray-200">AI-Driven Product Development & Workflow Automation</h4>
+                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                  I integrate generative AI (LLMs) and custom models to create intelligent, high-value product features. This includes building agentic workflows with tools like LangChain, implementing AI-driven personalization in products, and performing advanced data analysis to automate tasks and inform decisions.
                 </p>
               </div>
             </div>
